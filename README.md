@@ -11,6 +11,35 @@ This application showcases the fundamentals of Spring Boot data access using JDB
 - Implement a simple repository pattern
 - Initialize database schema and data automatically
 
+
+## Prerequisites
+
+### Container Runtime (Choose One)
+
+**Option A: Docker Desktop (Recommended)**
+- **Docker Desktop** - The most popular containerization platform
+- Download from [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- Includes Docker Engine, Docker CLI, and Docker Compose
+- **Supported Platforms**: Windows, macOS, Linux
+- Verify installation:
+  ```bash
+  docker --version
+  docker compose version
+  ```
+
+**Option B: Rancher Desktop (Alternative)**
+- **Rancher Desktop** - Open-source alternative to Docker Desktop
+- Download from [Rancher Desktop](https://rancherdesktop.io/)
+- Provides Docker-compatible container management
+- **Supported Platforms**: Windows, macOS, Linux
+- **Benefits**: Free, open-source, includes Kubernetes
+- After installation, ensure Docker compatibility mode is enabled
+- Verify installation:
+  ```bash
+  docker --version
+  docker compose version
+  ```
+
 ## What is JdbcTemplate?
 
 **JdbcTemplate** is Spring's central class for JDBC operations. It provides:
